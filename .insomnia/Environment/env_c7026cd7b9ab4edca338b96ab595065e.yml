@@ -1,0 +1,14 @@
+_id: env_c7026cd7b9ab4edca338b96ab595065e
+type: Environment
+parentId: wrk_a3c17270d7624094a59418a574ba51f3
+modified: 1692737756639
+created: 1692737712852
+name: Base Environment
+data:
+  localhost: http://127.0.0.1/api
+dataPropertyOrder:
+  "&":
+    - localhost
+color: null
+isPrivate: false
+metaSortKey: 1692737712852

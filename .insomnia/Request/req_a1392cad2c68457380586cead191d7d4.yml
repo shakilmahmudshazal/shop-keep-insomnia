@@ -1,0 +1,37 @@
+_id: req_a1392cad2c68457380586cead191d7d4
+type: Request
+parentId: fld_443b6b72df6b4661b99a0938429b9b20
+modified: 1692830513706
+created: 1692830216547
+url: "{{ _.localhost }}/{% request 'folder', '', 0 %}/2"
+name: Update
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "Example Product 2",
+    		"price": 20.99,
+    		"quantity": 100,
+    		"category_id": 1,
+    		"brand_id": 1
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: Insomnia/2023.5.5
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_d329fe9ec32d4fe2968c3f0af22dbff5',
+    'b64::JC5kYXRhLnRva2Vu::46b', 'always', 60 %}"
+metaSortKey: -1692737728342
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

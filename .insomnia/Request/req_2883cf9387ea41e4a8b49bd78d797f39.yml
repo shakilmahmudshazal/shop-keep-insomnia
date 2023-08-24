@@ -1,0 +1,36 @@
+_id: req_2883cf9387ea41e4a8b49bd78d797f39
+type: Request
+parentId: fld_fbc7e684442e45199659f71e68ffe1d7
+modified: 1692828736025
+created: 1692828736025
+url: "{{ _.localhost }}/{% request 'folder', '', 0 %}/2"
+name: Get
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_cf488a006aff4b1eadd794bd9dd270b8
+  - name: User-Agent
+    value: Insomnia/2023.5.5
+    id: pair_f16b816fd48046cab7cb8db96d254e4a
+  - id: pair_a43393a11cbd47c0b74f438cdd271d16
+    name: Accept
+    value: application/json
+    description: ""
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_d329fe9ec32d4fe2968c3f0af22dbff5',
+    'b64::JC5kYXRhLnRva2Vu::46b', 'always', 60 %}"
+metaSortKey: -1692737728442
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

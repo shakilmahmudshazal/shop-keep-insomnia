@@ -1,0 +1,35 @@
+_id: req_42d516686db7411d8e10dadf3aa7790a
+type: Request
+parentId: fld_3b844f3de8564066a9becea0e82bca6d
+modified: 1692828661800
+created: 1692827018993
+url: "{{ _.localhost }}/{% request 'folder', '', 0 %}/2"
+name: Update
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "Updated Category Name new",
+    	"description": "Updated Category Description new",
+    	"logo": "practice new"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: Insomnia/2023.5.5
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_d329fe9ec32d4fe2968c3f0af22dbff5',
+    'b64::JC5kYXRhLnRva2Vu::46b', 'always', 60 %}"
+metaSortKey: -1692737728342
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

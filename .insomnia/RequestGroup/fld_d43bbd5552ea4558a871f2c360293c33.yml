@@ -1,0 +1,10 @@
+_id: fld_d43bbd5552ea4558a871f2c360293c33
+type: RequestGroup
+parentId: wrk_a3c17270d7624094a59418a574ba51f3
+modified: 1692915326143
+created: 1692915326143
+name: inventories
+description: ""
+environment: {}
+environmentPropertyOrder: null
+metaSortKey: -1692737722551
