@@ -1,7 +1,7 @@
 _id: req_0f0350840833495e8c8232bc949c0e55
 type: Request
 parentId: fld_d43bbd5552ea4558a871f2c360293c33
-modified: 1692915326147
+modified: 1693347748120
 created: 1692915326147
 url: "{{ _.localhost }}/{% request 'folder', '', 0 %}/2"
 name: Get
@@ -24,7 +24,7 @@ headers:
     description: ""
 authentication:
   type: bearer
-  token: "{% response 'body', 'req_d329fe9ec32d4fe2968c3f0af22dbff5',
+  token: "{% response 'body', 'req_96ee73ba5dd64d4784909f7455229982',
     'b64::JC5kYXRhLnRva2Vu::46b', 'always', 60 %}"
 metaSortKey: -1692737728442
 isPrivate: false
