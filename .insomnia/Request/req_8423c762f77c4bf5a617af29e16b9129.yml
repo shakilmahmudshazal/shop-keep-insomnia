@@ -1,0 +1,41 @@
+_id: req_8423c762f77c4bf5a617af29e16b9129
+type: Request
+parentId: fld_eb6b8f3c54c347508d17293b766b975b
+modified: 1693520754048
+created: 1693520754048
+url: "{{ _.localhost }}/{% request 'folder', '', 0 %}/2"
+name: Update
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    		"product_id": 5,
+    		"quantity": 75,
+    		"price": 292.59,
+    		"unit": "kg",
+    		"unit_type": "Weight",
+    		"purchase_price": 988.25,
+    		"sale_price": 928.18,
+    		"manufacture_date": "1990-07-05",
+    		"expiry_date": "2004-08-26",
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: Insomnia/2023.5.5
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_d329fe9ec32d4fe2968c3f0af22dbff5',
+    'b64::JC5kYXRhLnRva2Vu::46b', 'always', 60 %}"
+metaSortKey: -1692737728342
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

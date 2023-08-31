@@ -1,0 +1,41 @@
+_id: req_54995f85d1304edc97607b8dfc991cce
+type: Request
+parentId: fld_eb6b8f3c54c347508d17293b766b975b
+modified: 1693520884941
+created: 1693520754045
+url: "{{ _.localhost }}/{% request 'folder', '', 0 %}"
+name: Create
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |
+    {
+        "code": "SUMMER25",
+        "description": "Summer Sale 25% Off",
+        "type": "percentage",
+        "value": 25,
+        "minimum_amount": 50,
+        "maximum_amount": 1000,
+        "start_date": "2023-09-01",
+        "end_date": "2023-09-30",
+        "quantity": 100
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: Insomnia/2023.5.5
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_96ee73ba5dd64d4784909f7455229982',
+    'b64::JC5kYXRhLnRva2Vu::46b', 'always', 60 %}"
+metaSortKey: -1692737728392
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
