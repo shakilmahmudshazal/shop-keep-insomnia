@@ -1,7 +1,7 @@
 _id: req_38e2886b688445528f8b6a81359f02dd
 type: Request
 parentId: fld_3b844f3de8564066a9becea0e82bca6d
-modified: 1693347435762
+modified: 1696707797188
 created: 1692827018988
 url: "{{ _.localhost }}/{% request 'folder', '', 0 %}/2"
 name: Get
@@ -26,6 +26,7 @@ authentication:
   type: bearer
   token: "{% response 'body', 'req_96ee73ba5dd64d4784909f7455229982',
     'b64::JC5kYXRhLnRva2Vu::46b', 'always', 60 %}"
+  disabled: false
 metaSortKey: -1692737728442
 isPrivate: false
 settingStoreCookies: true

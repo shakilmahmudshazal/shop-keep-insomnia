@@ -1,7 +1,7 @@
 _id: req_1b37caa4974843e0bb8605d4db10663c
 type: Request
 parentId: fld_3b844f3de8564066a9becea0e82bca6d
-modified: 1692827955509
+modified: 1696707811474
 created: 1692827018985
 url: "{{ _.localhost }}/{% request 'folder', '', 0 %}"
 name: GetAll
@@ -18,7 +18,7 @@ headers:
     value: Insomnia/2023.5.5
 authentication:
   type: bearer
-  token: "{% response 'body', 'req_d329fe9ec32d4fe2968c3f0af22dbff5',
+  token: "{% response 'body', 'req_96ee73ba5dd64d4784909f7455229982',
     'b64::JC5kYXRhLnRva2Vu::46b', 'always', 60 %}"
 metaSortKey: -1692737728492
 isPrivate: false

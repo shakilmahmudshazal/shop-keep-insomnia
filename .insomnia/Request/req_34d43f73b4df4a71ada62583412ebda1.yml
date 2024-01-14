@@ -1,7 +1,7 @@
 _id: req_34d43f73b4df4a71ada62583412ebda1
 type: Request
 parentId: fld_79243b6e39904156863bc8bfc5542894
-modified: 1692830238198
+modified: 1705268901481
 created: 1692738088475
 url: "{{ _.localhost }}/user"
 name: User
@@ -18,7 +18,7 @@ headers:
     value: Insomnia/2023.5.5
 authentication:
   type: bearer
-  token: "{% response 'body', 'req_d329fe9ec32d4fe2968c3f0af22dbff5',
+  token: "{% response 'body', 'req_96ee73ba5dd64d4784909f7455229982',
     'b64::JC5kYXRhLnRva2Vu::46b', 'always', 60 %}"
   disabled: false
 metaSortKey: -1692737728492
